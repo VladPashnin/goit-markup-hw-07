@@ -23,6 +23,8 @@ body {
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
   --header-hover-color: #404bbf;
+  /* animation */
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* non-style */
 h1,
@@ -93,6 +95,80 @@ img {
 .logostylescolortwo {
   color: #f4f4fd;
 }
+/* Nav */
+
+.navstyles {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+.navstyles::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: #4d5ae5;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 250ms var(--timing-function);
+}
+
+.navstyles:hover::after {
+  opacity: 1;
+}
+.navstyles:hover {
+  color: #404bbf;
+}
+.navstyles:focus {
+  color: #404bbf;
+}
+.nav-styles-contact {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-styles-contact .item + .item {
+  margin-left: 40px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.auth-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.auth-nav .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-styles-contact:hover {
+  color: #404bbf;
+}
+.nav-styles-contact:focus {
+  color: #404bbf;
+}
+
+.nav-margin {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 /* section styles */
 /* sectio 1 */
 .section_one {
@@ -289,60 +365,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-/* Nav */
-
-.navstyles {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-}
-.navstyles:hover {
-  color: #404bbf;
-}
-.navstyles:focus {
-  color: #404bbf;
-}
-.nav-styles-contact {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.nav-styles-contact .item + .item {
-  margin-left: 40px;
-}
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-.auth-nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-.auth-nav .item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.nav-styles-contact:hover {
-  color: #404bbf;
-}
-.nav-styles-contact:focus {
-  color: #404bbf;
-}
-
-.nav-margin {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 /* H */
