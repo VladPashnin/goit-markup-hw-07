@@ -433,9 +433,11 @@ img {
 }
 .stylesbutton:hover {
   background-color: #404bbf;
+  border: none;
 }
 .stylesbutton:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .buttonportfolio {
