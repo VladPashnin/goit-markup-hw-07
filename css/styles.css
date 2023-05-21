@@ -126,6 +126,9 @@ img {
 .navstyles:hover::after {
   opacity: 1;
 }
+.navstyles:focus::after {
+  opacity: 1;
+}
 .navstyles:hover {
   color: #404bbf;
 }
