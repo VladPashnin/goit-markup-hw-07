@@ -280,13 +280,16 @@ img {
   align-items: center;
   justify-content: center;
 }
+.sec-four-asvg:hover::after{
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .sec-four-asvg:hover {
   background-color: #404bbf;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .sec-four-asvg:focus {
   background-color: #404bbf;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 /*  */
 
