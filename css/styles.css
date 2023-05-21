@@ -679,11 +679,11 @@ img {
 }
 
 .modal-button:hover {
-  background-color: #404bbf;
+  fill: #ffffff;
   border: none;
 }
 .modal-button:focus {
-  background-color: #404bbf;
+  fill: #ffffff;
   border: none;
 }
 .modal-svg {
