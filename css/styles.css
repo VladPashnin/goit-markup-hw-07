@@ -647,7 +647,7 @@ color: #404bbf;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* animation */
+/* modal-window */
 .modal-window {
   position: fixed;
   top: 0;
@@ -716,4 +716,17 @@ color: #404bbf;
 }
 .modal-svg:focus {
   fill: #ffffff;
+}
+.label-modal{
+  display: block;
+}
+.modal-text{
+    font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color:#2E2F42 ;
+  letter-spacing: 0.02em;
+ 
+}
 }
