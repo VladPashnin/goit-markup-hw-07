@@ -721,12 +721,43 @@ color: #404bbf;
   display: block;
 }
 .modal-text{
+  padding: 72px  24px 16px 24px;
     font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color:#2E2F42 ;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
  
 }
+
+
+.label-bottom{
+  padding: 0px 24px 16px 24px;
+}
+.modal-text-input{
+  color: #8E8F99;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+
+}
+
+.label:hover{
+  border: radius 4px;
+  border: 1px solid #4D5AE5;
+
+}
+.icons{
+  /* position:absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  display:inline-block; */
+  width: 20px;
+  height: 20px;
+  background-color: #2E2F42;
+}
+.label:hover ~ .icons{
+  background-color: #4D5AE5;
 }
