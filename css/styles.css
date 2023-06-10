@@ -511,6 +511,7 @@ color: #404bbf;
 }
 .footer-align {
   align-items: baseline;
+  margin-right: 80px;
 }
 .secstylesdown {
   height: 312px;
@@ -579,6 +580,7 @@ color: #404bbf;
 .fotter-icon{
   margin-left: 16px;
 }
+
 .footer-button{
   min-width: 165px;
   height: 40px;
