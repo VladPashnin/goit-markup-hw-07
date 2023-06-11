@@ -601,7 +601,7 @@ border:none;
 border-radius:4px;
 }
 .bag{
-  
+
 }
 /* portfolio-section */
 .portfolio-section {
@@ -712,7 +712,7 @@ border-radius:4px;
   pointer-events: none;
 }
 .modal-window-two {
-  padding: 0px 24px 0px 24px;
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -770,19 +770,92 @@ border-radius:4px;
   display: block;
 }
 .modal-text{
-  padding: 72px  0px 16px 0px;
-    font-style: normal;
+  
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color:#2E2F42 ;
   letter-spacing: 0.02em;
-  
- text-align: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.input-margin{
+  margin-bottom: 8px;
+}
+.input-coment{
+  margin-bottom: 16px;
+}
+.coment{
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.04em;
+   color: rgba(46, 47, 66, 0.4);
+   border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color:transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.coment:focus{
+  border-color: #4D5AE5;
+}
+.input-text{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+.input{
+  width: 100%;
+  height: 40px;
+   border: 1px solid rgba(46, 47, 66, 0.4);
+   border-radius:4px;
+   background-color:transparent;
+   padding-left: 38px;
+   outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus{
+  border-color:#4d5ae5;
+}
+.input-svg{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform:translateY(-50%);
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.privacy-text{
+  font-size: 12px;
+   line-height: 1.17;
+   letter-spacing: 0.04em;
+   color: #8e8f99;
+}
+.span{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4)
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
 }
 
 
-.label-input{
+
+/* .label-input{
 
   position: relative;
  margin-bottom: 8px;
@@ -812,9 +885,9 @@ border-radius:4px;
   fill: #4D5AE5;
 
 }
-/* .input-wrap{
+.input-wrap{
   position: relative;
-} */
+}
 .modal-icon{
   position: absolute;
   top: 50%;
@@ -859,4 +932,4 @@ border-radius:4px;
   
 box-shadow: 0px 4px 4px 0px #00000026;
 
-}
+} */
