@@ -896,7 +896,9 @@ border-radius:4px;
   display:flex;
   align-items:center;
 }
-
+.pravici-link{
+  color:#4d5ae5;
+}
 .checkbox-text span{
  width: 16px;
  height: 16px;
