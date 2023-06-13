@@ -840,7 +840,7 @@ border-radius:4px;
   fill: #4d5ae5;
 }
 
- .coment:focus {
+ ..input-svg {
   border-color:#4d5ae5;
 }
 .input-svg{
