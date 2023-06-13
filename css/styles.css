@@ -762,6 +762,7 @@ border-radius:4px;
 }
 .modal-svg:hover {
   fill: #ffffff; 
+  
 }
 .modal-svg:focus {
   fill: #ffffff;  
