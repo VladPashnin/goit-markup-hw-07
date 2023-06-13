@@ -788,6 +788,11 @@ border-radius:4px;
   margin-bottom: 8px;
 }
 .input-coment{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
   margin-bottom: 16px;
 }
 .input-wrap{
@@ -868,9 +873,9 @@ border-radius:4px;
   display: block;
   min-width: 169px;
   height: 56px;
- font-family: "Roboto", sans-serif;
- font-size: 16px;
- font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
