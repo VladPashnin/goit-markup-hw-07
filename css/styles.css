@@ -871,6 +871,7 @@ border-radius:4px;
 }
 .button-send{
   display: block;
+  margin: 0px 95px 0px 95px;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
