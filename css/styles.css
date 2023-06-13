@@ -914,6 +914,6 @@ margin-right: 8px;
 .modal-check:checked + .checkbox-text span{
 background-color: #404BBF;
  border: none;
-
+ fill: #F4F4FD;
 
 }
