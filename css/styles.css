@@ -843,7 +843,9 @@ border-color:#4d5ae5;
   border-color:#4d5ae5;
   fill: #4d5ae5;
 }
-
+.input:focus {
+  border-color:#4d5ae5;
+}
  /* .input-svg:focus {
   fill: #4d5ae5;
 } */
