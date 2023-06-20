@@ -97,11 +97,7 @@ img {
   color: #f4f4fd;
 }
 /* Nav */
-/* .current::after{
-  position: relative;
-  color: ;
-color: #404bbf;
-} */
+
 
 .navstyles {
   font-style: normal;
@@ -140,6 +136,9 @@ color: #404bbf;
   color: #404bbf;
 }
 .navstyles:focus {
+  color: #404bbf;
+}
+.navstyles.current{
   color: #404bbf;
 }
 .nav-styles-contact {
@@ -603,6 +602,8 @@ border-radius:4px;
 .bag{
 
 }
+
+
 /* portfolio-section */
 .portfolio-section {
   padding: 96px 0 120px;
